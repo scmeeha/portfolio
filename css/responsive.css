@@ -1,0 +1,432 @@
+@media screen and (max-width:1024px) {
+    .abouthd h3 {
+        font-size: 44px;
+    }
+
+    .aboutpara p {
+        font-size: 16px;
+        line-height: 34px;
+    }
+
+    .cvcircle {
+        width: 110px;
+        height: 110px;
+        left: -15px;
+    }
+
+    .cvcircle a {
+        font-size: 15px;
+    }
+
+    .skillbtn {
+        padding: 17px 34px;
+        padding-top: 26px;
+    }
+
+    .servhd h2 {
+        font-size: 44px;
+    }
+
+    .workhd h2 {
+        font-size: 44px;
+    }
+
+    .foothd h2 {
+        font-size: 44px;
+    }
+
+    .name h2 {
+        font-size: 45px;
+    }
+
+    .logo h1 {
+        font-size: 22px;
+    }
+
+    .servimg2 img {
+        width: 35px;
+
+    }
+
+    .servimg1 img {
+        width: 45px;
+    }
+
+    .servhdng2 h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .servhdng1 h3 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .servbtn1 {
+        padding: 19px 23px;
+        height: 100%;
+    }
+
+    .btnwork {
+        padding: 4px 12px;
+    }
+
+    .btnwork h3 {
+        font-size: 23px;
+    }
+
+    .cvbtn {
+        width: 16%;
+    }
+    .skillbtn1{
+        width: 13%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainmenu {
+        position: fixed;
+        background-color: #131533;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+        transform: translateX(40px);
+        padding-top: 140px;
+        z-index: 2;
+    }
+
+    .cvbtn {
+        width: 22%;
+    }
+
+    .mainmenu.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+
+    .menu {
+        display: block;
+        text-align: center;
+    }
+
+    .menu li {
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+
+    .menubar span {
+        display: block;
+        width: 32px;
+        height: 2px;
+        background-color: #fff;
+        margin: 6px 0;
+        margin-left: 20px;
+        transition: all 0.3s;
+    }
+
+    .menubar.open span:nth-child(2) {
+        width: 0;
+    }
+
+    .menubar.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .menubar.open span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+
+    .menubar {
+        position: relative;
+        z-index: 22;
+    }
+
+    .skillimg img {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* .skillsec{
+        gap: 15px;
+    } */
+    .skillbtn {
+        padding: 17px 14px;
+    }
+
+    .skilltxt p {
+        font-size: 15px;
+    }
+
+    .aboutpara p {
+        font-size: 19px;
+        line-height: 1.9;
+        padding-bottom: 50px;
+    }
+
+    .servhd h2 {
+        font-size: 38px;
+    }
+
+    .herosocial {
+        font-size: 18px;
+    }
+
+    .thdimg img {
+        width: 7%;
+    }
+
+    .cvcircle {
+        width: 140px;
+        height: 140px;
+    }
+
+    .cvcircle a {
+        font-size: 17px;
+    }
+
+    .workhd h2 {
+        font-size: 42px;
+    }
+
+    .foothd h2 {
+        font-size: 42px;
+    }
+
+    .skillsec {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .skillbtn {
+        width: 25%;
+    }
+
+    .skillbtn1 {
+        width: 23%;
+    }
+
+    .skillsec1 {
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    .skillbtn1 {
+        width: 29%;
+    }
+
+    .abtimg img {
+        width: 60%;
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .servbtn1 {
+        height: auto;
+    }
+    .cvbtn {
+        width: 40%;
+    }
+    .footersection {
+        padding-top: 38px;
+    }
+    .servbtn1 {
+        margin-bottom: 30px;
+    }
+    .servhd1 h2 {
+        margin-bottom: 5px;
+    }
+    .cvcircle a {
+        font-size: 15px;
+    }
+
+    .thdimg img {
+        width: 12%;
+    }
+    .abtimg img {
+        width: 100%;
+    }
+
+    .name h2 {
+        font-size: 35px;
+    }
+
+    .name h2 {
+        font-size: 35px;
+    }
+
+    .herosection {
+        padding-bottom: 30px;
+    }
+
+    .abouthd h3 {
+        font-size: 38px;
+    }
+
+    .skillsec {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skillbtn {
+        width: 30%;
+    }
+
+    .input-row {
+        display: block;
+    }
+
+    .aboutpara p {
+        font-size: 19px;
+        line-height: 1.9;
+        margin-bottom: 40px;
+    }
+
+    .herosection {
+        padding-bottom: 70px;
+    }
+
+    .workhd h2 {
+        font-size: 38px;
+    }
+
+    .foothd h2 {
+        font-size: 38px;
+    }
+
+    .aboutpara p {
+        padding-bottom: 30px;
+    }
+
+    .cvcircle {
+        width: 120px;
+        height: 120px;
+        left: -3px;
+        bottom: -40px;
+    }
+
+    .servicesection {
+        padding-bottom: 0;
+    }
+
+    .copysocial {
+        margin-top: -24px;
+    }
+
+    .copy {
+        margin-top: 53px;
+    }
+
+    .abouthd h3 {
+        margin-bottom: 15px;
+    }
+
+    .herosocial {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .servicesection .col-md-6 {
+        margin-bottom: 20px;
+    }
+
+    .dot2 {
+        padding-bottom: 15px;
+    }
+
+    .dot {
+        padding-bottom: 15px;
+    }
+
+    .dot1 {
+        padding-bottom: 15px;
+    }
+    .skillbtn1{
+        width: 29%;
+    }
+    .copysocial1{
+        margin-top: -24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .skillbtn {
+        width: 45%;
+    }
+
+    /* .servicesection .col-md-6{
+        margin-bottom: 20px;
+    } */
+
+}
+
+@media screen and (max-width: 375px) {
+    .skillbtn {
+        width: 45%;
+    }
+
+    .foothd h2 {
+        font-size: 33px;
+    }
+
+    .workhd h2 {
+        font-size: 37px;
+    }
+
+    .abouthd h3 {
+        font-size: 30px;
+    }
+
+    .name h2 {
+        font-size: 30px;
+    }
+
+    .servhd h2 {
+        font-size: 31px;
+    }
+
+    .cvcircle a {
+        font-size: 16px;
+    }
+
+    .herosocial {
+        font-size: 17px;
+    }
+
+    .cvcircle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cvcircle a {
+        font-size: 13px;
+    }
+    .cvbtn{
+        width: 50%;
+    }
+    .cvbtn a{
+        font-size: 15px;
+    }
+    .skillbtn1 {
+        width: 40%;
+    }
+    .copysocial1{
+        margin-top: -24px;
+    }
+    .abtimg img {
+        width: 100%;
+    }
+}

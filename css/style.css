@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: satoshi;
+    src: url(../asset/font/Satoshi-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: satoshi;
+    src: url(../asset/font/Satoshi-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: satoshi;
+    src: url(../asset/font/Satoshi-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: satoshi;
+    src: url(../asset/font/Satoshi-Black.otf);
+    font-weight: 900;
+}
+
+
+body {
+    font-family: satoshi;
+    background-image: url(../asset/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-family: satoshi;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: satoshi;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    margin-bottom: 0 !important;
+}
+
+ul {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+p{
+    margin-bottom: 0 !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #0D0A2C; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #456880; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #456880; 
+  }
